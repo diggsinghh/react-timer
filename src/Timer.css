@@ -1,0 +1,65 @@
+.timer-class{
+    border-width:10px;
+    border: 10px solid #dddcdc;
+    height: 300px;
+    border-radius: 50%;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.timer-display-class{
+    height: 210px;
+}
+
+.countdown-timer-class{
+    min-height: 50px;
+    color: #17a2b8;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.count-class{
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+.input-class{
+    outline:none;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    font-size: 50px;
+    color: #17a2b8;
+    text-align: center!important;
+    width: 280px
+}
+
+.button-class{
+    display:inline-flex;
+    overflow: hidden;
+}
+
+.play-class{
+    background-color: #28a745;
+    height:90px;
+    width:150px;
+    border:0;
+    color: white;
+    font-size: 32px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.reset-class{
+    background-color: #007bff;
+    height:90px;
+    width:150px;
+    border:0;
+    color: white;
+    font-size: 32px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
