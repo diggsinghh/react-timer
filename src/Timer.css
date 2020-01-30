@@ -5,20 +5,32 @@
     border-radius: 50%;
     width: 300px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 100px;
     background-color: #f0f0f0;
     overflow: hidden;
+    box-shadow: 1px 1px 100px #888888;
 }
 
 .timer-display-class{
     height: 210px;
 }
 
-.countdown-timer-class{
+.countdown-timer-notrunning-class{
     min-height: 50px;
     color: #17a2b8;
     text-align: center;
     padding-top: 50px;
+}
+
+.countdown-timer-running-class{
+    display: block;
+    color: #17a2b8;
+    text-align: center;
+    padding-top: 110px;
+    padding-left: 12px;
+    font-size: 45px;
+    position: absolute;
+    font-weight: bold;
 }
 
 .count-class{
@@ -43,14 +55,25 @@
 }
 
 .play-class{
-    background-color: #28a745;
     height:90px;
     width:150px;
     border:0;
     color: white;
-    font-size: 32px;
     padding-left: 50px;
     padding-bottom: 20px;
+    font-size: 32px;
+    background-color: #28a745;
+}
+
+.stop-class{
+    height:90px;
+    width:150px;
+    border:0;
+    color: white;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    background-color: #343a40;
 }
 
 .reset-class{
